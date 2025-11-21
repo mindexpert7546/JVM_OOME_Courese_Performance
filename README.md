@@ -70,3 +70,35 @@ for MaxH
 -XX:G1HeapRegionSize=4m
 -XX:+UnlockExperimentalVMOptions
 ```
+
+## Tuning Garbage Collection 
+```
+-XX:NewRatio=n
+-XX:SurvivorRation=n
+-XX:MaxTenuringThreshold=n
+```
+
+## Choosing a Garbage Collector
+
+Types
+1. Serial = -XX:+UseSerialGC
+2. Parallel = -XX:+UseParallelGC
+3. Mostly COncurrent = -XX:+UseConcMarkSweepGC
+                       -XX:+UseG1GC
+
+Other Tuning G1
+```
+-XX:+UseG1GC
+
+or
+
+-XX:ConcGCThreads=n
+
+or
+
+-XX:InitiatingHeapOccupancyPercent=n
+```
+
+
+
+
