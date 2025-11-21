@@ -34,3 +34,12 @@ java -XX:ReservedCodeCacheSize=28m -XX:+PrintCodeCache main.Main 10
 3. Max heap size - OS dependent
 4. Client & Server compilers (C1 & C2 )
 
+#### JVM Compilers flags 
+```
+-client 
+-server
+-d64
+
+-XX:-TieredCompilation
+```
+
