@@ -43,3 +43,17 @@ java -XX:ReservedCodeCacheSize=28m -XX:+PrintCodeCache main.Main 10
 -XX:-TieredCompilation
 ```
 
+## JVM Tuning 
+```
+-XX:+PrintStringTableStatistics
+-XX:StringTableSize=n
+
+-XX:MaxHeapSize=n or -Xmx
+-XX:InitialHeapSize=n -Xms
+
+-XX:+UnlockDiagnosticVMOptions
+-XX:+PrintFlagsFinal
+
+```
+
+
