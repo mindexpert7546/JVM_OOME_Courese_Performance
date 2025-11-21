@@ -21,3 +21,16 @@ To set the code cache -
 ```
 java -XX:ReservedCodeCacheSize=28m -XX:+PrintCodeCache main.Main 10
 ```
+
+## JVM Versions 
+#### 32 bit - 
+1. Might be faster if heap <3GB
+2. Max heap size = 4GB
+3. Client compiler only (C1)
+
+#### 64 bit 
+1. Might be faster if using long/double
+2. Necessary if heap > 4GB
+3. Max heap size - OS dependent
+4. Client & Server compilers (C1 & C2 )
+
