@@ -86,7 +86,7 @@ Types
 3. Mostly COncurrent = -XX:+UseConcMarkSweepGC
                        -XX:+UseG1GC
 
-Other Tuning G1
+Other Tuning GI
 ```
 -XX:+UseG1GC
 
@@ -99,6 +99,9 @@ or
 -XX:InitiatingHeapOccupancyPercent=n
 ```
 
-
+## String De-duplication  (Only available if using GI)
+```
+-XX:UseStringDeDuplication
+```
 
 
