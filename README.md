@@ -48,12 +48,13 @@ java -XX:ReservedCodeCacheSize=28m -XX:+PrintCodeCache main.Main 10
 -XX:+PrintStringTableStatistics
 -XX:StringTableSize=n
 
--XX:MaxHeapSize=n or -Xmx
--XX:InitialHeapSize=n -Xms
+-XX:MaxHeapSize=n 
+-XX:InitialHeapSize=n
 
 -XX:+UnlockDiagnosticVMOptions
 -XX:+PrintFlagsFinal
 
 ```
+for MaxH
 
 
