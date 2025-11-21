@@ -104,4 +104,18 @@ or
 -XX:UseStringDeDuplication
 ```
 
+## JMC For Performance Tracking 
+link - https://github.com/openjdk/jmc
 
+## Benchmarking 
+Microbenchmark - Measuring the performance of a small piece of code. 
+
+More Complications : 
+- Assessing in isolation
+- Different Hardware
+
+## GraalVM
+- Alternative JVM
+- Alternative Java Compiler
+- Native Compiler (no JVM required)
+- 
