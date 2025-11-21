@@ -57,4 +57,16 @@ java -XX:ReservedCodeCacheSize=28m -XX:+PrintCodeCache main.Main 10
 ```
 for MaxH
 
+## Monitoring the Garbage Collectors 
+```
+-verbose:gc
+```
 
+## Memory size set e.g 
+```
+-Xms2g
+-Xmx2g
+-XX:+UseG1GC
+-XX:G1HeapRegionSize=4m
+-XX:+UnlockExperimentalVMOptions
+```
